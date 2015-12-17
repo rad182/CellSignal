@@ -96,9 +96,3 @@ extension CSUtility: WCSessionDelegate {
     }
 
 }
-
-extension CSUtility: CLLocationManagerDelegate {
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        self.sendMessageToUpdateComplications()
-    }
-}
