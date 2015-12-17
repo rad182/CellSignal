@@ -9,8 +9,9 @@ This uses private api to get cell signal strength
 
 ## Requirements
 
-- iOS 8.0+
+- iOS 9.0+
 - Swift 2.x+
+- Watch OS 2.x+
 - Xcode 7.1+
 
 ## Communication
