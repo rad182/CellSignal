@@ -42,9 +42,7 @@ class InterfaceController: WKInterfaceController {
         if self.isFetchingData {
             return
         }
-        
-        SessionUtility.reloadComplicationData()
-        
+                
         if let currentSession = SessionUtility.currentSession where currentSession.reachable {
             self.isFetchingData = true
             SessionUtility.updateCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentage {
