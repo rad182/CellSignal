@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2479504d6896f0fa371e83a91fb3a7fc"
+build_time: [503653203, 137027000]
+inputs:
+  "/Users/rad182/Projects/CellSignal/Watch Extension/ExtensionDelegate.swift": [500805013, 0]
+  "/Users/rad182/Projects/CellSignal/Watch Extension/GlanceController.swift": [503651986, 0]
+  "/Users/rad182/Projects/CellSignal/Watch Extension/SessionUtility.swift": [503653200, 0]
+  "/Users/rad182/Projects/CellSignal/Watch Extension/ComplicationController.swift": [503652670, 0]
+  "/Users/rad182/Projects/CellSignal/CellSignal/Constants.swift": [500895840, 0]
+  "/Users/rad182/Projects/CellSignal/Watch Extension/NotificationController.swift": [500805013, 0]
+  "/Users/rad182/Projects/CellSignal/Watch Extension/InterfaceController.swift": [503653202, 0]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "79b84478f13852edde0b4b56d8e43f66"
+build_time: [503652999, 949379000]
+inputs:
+  "/Users/rad182/Projects/CellSignal/CellSignal/AppDelegate.swift": [501898335, 0]
+  "/Users/rad182/Projects/CellSignal/CellSignal/ViewController.swift": [501149608, 0]
+  "/Users/rad182/Projects/CellSignal/CellSignal/Constants.swift": [500895840, 0]
+  "/Users/rad182/Projects/CellSignal/CellSignal/Utility.swift": [503652996, 0]

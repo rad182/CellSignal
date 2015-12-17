@@ -1,0 +1,84 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BackgroundTask"
+provides-nominal:
+- "C10CellSignal14BackgroundTask"
+provides-member:
+- ["C10CellSignal14BackgroundTask", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "UIApplication"
+- "BackgroundTask"
+- "Void"
+- "UIBackgroundTaskIdentifier"
+- !private "UIBackgroundTaskInvalid"
+depends-member:
+- !private ["PSs9AnyObject", "UIApplication"]
+- !private ["PSs9AnyObject", "UIBackgroundTaskInvalid"]
+- !private ["PSs9AnyObject", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSs9AnyObject", "endBackgroundTask"]
+- !private ["PSs9AnyObject", "execute"]
+- !private ["PSs9AnyObject", "function"]
+- !private ["PSs9AnyObject", "identifier"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- ["PSs9AnyObject", ""]
+- !private ["C10CellSignal14BackgroundTask", "UIApplication"]
+- ["C10CellSignal14BackgroundTask", "UIBackgroundTaskIdentifier"]
+- !private ["C10CellSignal14BackgroundTask", "UIBackgroundTaskInvalid"]
+- ["C10CellSignal14BackgroundTask", "Void"]
+- ["C10CellSignal14BackgroundTask", "deinit"]
+- !private ["C10CellSignal14BackgroundTask", "endBackgroundTask"]
+- !private ["C10CellSignal14BackgroundTask", "execute"]
+- ["C10CellSignal14BackgroundTask", "function"]
+- ["C10CellSignal14BackgroundTask", "identifier"]
+- ["C10CellSignal14BackgroundTask", "init"]
+- !private ["PSs11CVarArgType", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSs11CVarArgType", "endBackgroundTask"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSs23CustomStringConvertible", "endBackgroundTask"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs9Equatable", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSs9Equatable", "endBackgroundTask"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs8Hashable", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSs8Hashable", "endBackgroundTask"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- !private ["CSo8NSObject", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["CSo8NSObject", "endBackgroundTask"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["PSo16NSObjectProtocol", "endBackgroundTask"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["CSo13UIApplication", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["CSo13UIApplication", "endBackgroundTask"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["CSo11UIResponder", "beginBackgroundTaskWithExpirationHandler"]
+- !private ["CSo11UIResponder", "endBackgroundTask"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C10CellSignal14BackgroundTask"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo13UIApplication"
+- !private "CSo11UIResponder"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/rad182/Projects/CellSignal/CellSignal/CellSignal-Bridging-Header.h"
+- "/Users/rad182/Projects/CellSignal/CellSignal/SignalStrength.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "db4aee6246d32d5e18659322fac6eedb"

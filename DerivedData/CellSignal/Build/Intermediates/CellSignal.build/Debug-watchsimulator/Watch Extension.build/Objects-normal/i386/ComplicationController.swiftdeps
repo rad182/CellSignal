@@ -1,0 +1,680 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ComplicationController"
+provides-nominal:
+- "C15Watch_Extension22ComplicationController"
+provides-member:
+- ["C15Watch_Extension22ComplicationController", ""]
+provides-dynamic-lookup:
+- "getCurrentTimelineEntryForComplication"
+- "getSupportedTimeTravelDirectionsForComplication"
+- "getTimelineEntriesForComplication"
+- "getTimelineEntriesForComplication"
+- "requestedUpdateBudgetExhausted"
+- "getPlaceholderTemplateForComplication"
+- "getTimelineStartDateForComplication"
+- "getPrivacyBehaviorForComplication"
+- "requestedUpdateDidBegin"
+- "getTimelineEndDateForComplication"
+- "getNextRequestedUpdateDateWithHandler"
+depends-top-level:
+- !private "SessionUtility"
+- !private "*"
+- "CLKComplicationTemplate"
+- "NSObject"
+- !private "print"
+- !private "String"
+- !private "CSCurrentSignalStrengthPercentageKey"
+- !private "=="
+- !private "CLKComplicationTemplateModularSmallSimpleText"
+- !private "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"
+- "CLKComplication"
+- "BooleanLiteralType"
+- "CLKComplicationTimeTravelDirections"
+- !private "CLKComplicationTemplateModularSmallStackText"
+- !private "CLKSimpleTextProvider"
+- "CLKComplicationPrivacyBehavior"
+- !private "Dictionary"
+- "ComplicationController"
+- "WCSessionDelegate"
+- "NSDate"
+- "Int"
+- !private "CSCurrentRadioAccessTechnologyKey"
+- !private "CLKComplicationTemplateCircularSmallSimpleText"
+- "CLKComplicationDataSource"
+- "WCSession"
+- "Void"
+- "CLKComplicationTimelineEntry"
+depends-member:
+- !private ["PSs9AnyObject", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSs9AnyObject", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSs9AnyObject", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSs9AnyObject", "CLKComplicationTimelineEntry"]
+- !private ["PSs9AnyObject", "CLKSimpleTextProvider"]
+- !private ["PSs9AnyObject", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSs9AnyObject", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSs9AnyObject", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "SessionUtility"]
+- ["PSs9AnyObject", "WCSession"]
+- !private ["PSs9AnyObject", "activateSession"]
+- ["PSs9AnyObject", "defaultSession"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "family"]
+- ["PSs9AnyObject", "getCurrentTimelineEntryForComplication"]
+- ["PSs9AnyObject", "getNextRequestedUpdateDateWithHandler"]
+- ["PSs9AnyObject", "getPlaceholderTemplateForComplication"]
+- ["PSs9AnyObject", "getPrivacyBehaviorForComplication"]
+- ["PSs9AnyObject", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSs9AnyObject", "getTimelineAnimationBehaviorForComplication"]
+- ["PSs9AnyObject", "getTimelineEndDateForComplication"]
+- ["PSs9AnyObject", "getTimelineEntriesForComplication"]
+- ["PSs9AnyObject", "getTimelineStartDateForComplication"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isEmpty"]
+- !private ["PSs9AnyObject", "line1TextProvider"]
+- !private ["PSs9AnyObject", "line2TextProvider"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "reachable"]
+- !private ["PSs9AnyObject", "refreshComplications"]
+- ["PSs9AnyObject", "requestedUpdateBudgetExhausted"]
+- ["PSs9AnyObject", "requestedUpdateDidBegin"]
+- !private ["PSs9AnyObject", "sendMessage"]
+- ["PSs9AnyObject", "session"]
+- ["PSs9AnyObject", "sessionReachabilityDidChange"]
+- ["PSs9AnyObject", "sessionWatchStateDidChange"]
+- !private ["PSs9AnyObject", "textProvider"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "None"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo15CLKComplication", "family"]
+- !private ["PSo25CLKComplicationDataSource", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSo25CLKComplicationDataSource", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSo25CLKComplicationDataSource", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSo25CLKComplicationDataSource", "CLKComplicationTimelineEntry"]
+- !private ["PSo25CLKComplicationDataSource", "CLKSimpleTextProvider"]
+- !private ["PSo25CLKComplicationDataSource", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSo25CLKComplicationDataSource", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSo25CLKComplicationDataSource", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSo25CLKComplicationDataSource", "NSDate"]
+- !private ["PSo25CLKComplicationDataSource", "SessionUtility"]
+- ["PSo25CLKComplicationDataSource", "WCSession"]
+- ["PSo25CLKComplicationDataSource", "getCurrentTimelineEntryForComplication"]
+- ["PSo25CLKComplicationDataSource", "getNextRequestedUpdateDateWithHandler"]
+- ["PSo25CLKComplicationDataSource", "getPlaceholderTemplateForComplication"]
+- ["PSo25CLKComplicationDataSource", "getPrivacyBehaviorForComplication"]
+- ["PSo25CLKComplicationDataSource", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSo25CLKComplicationDataSource", "getTimelineAnimationBehaviorForComplication"]
+- ["PSo25CLKComplicationDataSource", "getTimelineEndDateForComplication"]
+- ["PSo25CLKComplicationDataSource", "getTimelineEntriesForComplication"]
+- ["PSo25CLKComplicationDataSource", "getTimelineStartDateForComplication"]
+- !private ["PSo25CLKComplicationDataSource", "print"]
+- ["PSo25CLKComplicationDataSource", "requestedUpdateBudgetExhausted"]
+- ["PSo25CLKComplicationDataSource", "requestedUpdateDidBegin"]
+- ["PSo25CLKComplicationDataSource", "session"]
+- ["PSo25CLKComplicationDataSource", "sessionReachabilityDidChange"]
+- ["PSo25CLKComplicationDataSource", "sessionWatchStateDidChange"]
+- ["PSo25CLKComplicationDataSource", ""]
+- ["OSC21CLKComplicationFamily", "CircularSmall"]
+- ["OSC21CLKComplicationFamily", "ModularSmall"]
+- !private ["OSC30CLKComplicationPrivacyBehavior", "ShowOnLockScreen"]
+- !private ["CSo23CLKComplicationTemplate", "init"]
+- !private ["CSo23CLKComplicationTemplate", "line1TextProvider"]
+- !private ["CSo23CLKComplicationTemplate", "line2TextProvider"]
+- !private ["CSo23CLKComplicationTemplate", "textProvider"]
+- !private ["CSo46CLKComplicationTemplateCircularSmallSimpleText", "init"]
+- !private ["CSo46CLKComplicationTemplateCircularSmallSimpleText", "textProvider"]
+- !private ["CSo45CLKComplicationTemplateModularSmallSimpleText", "init"]
+- !private ["CSo45CLKComplicationTemplateModularSmallSimpleText", "textProvider"]
+- !private ["CSo44CLKComplicationTemplateModularSmallStackText", "init"]
+- !private ["CSo44CLKComplicationTemplateModularSmallStackText", "line1TextProvider"]
+- !private ["CSo44CLKComplicationTemplateModularSmallStackText", "line2TextProvider"]
+- !private ["VSC35CLKComplicationTimeTravelDirections", "None"]
+- !private ["CSo28CLKComplicationTimelineEntry", "init"]
+- !private ["CSo21CLKSimpleTextProvider", "init"]
+- !private ["CSo15CLKTextProvider", "init"]
+- !private ["C15Watch_Extension16CSSessionUtility", "refreshComplications"]
+- !private ["PSs11CVarArgType", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSs11CVarArgType", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSs11CVarArgType", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSs11CVarArgType", "CLKComplicationTimelineEntry"]
+- !private ["PSs11CVarArgType", "CLKSimpleTextProvider"]
+- !private ["PSs11CVarArgType", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSs11CVarArgType", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSs11CVarArgType", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSs11CVarArgType", "NSDate"]
+- !private ["PSs11CVarArgType", "SessionUtility"]
+- ["PSs11CVarArgType", "WCSession"]
+- !private ["PSs11CVarArgType", "activateSession"]
+- ["PSs11CVarArgType", "defaultSession"]
+- !private ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "family"]
+- ["PSs11CVarArgType", "getCurrentTimelineEntryForComplication"]
+- ["PSs11CVarArgType", "getNextRequestedUpdateDateWithHandler"]
+- ["PSs11CVarArgType", "getPlaceholderTemplateForComplication"]
+- ["PSs11CVarArgType", "getPrivacyBehaviorForComplication"]
+- ["PSs11CVarArgType", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSs11CVarArgType", "getTimelineAnimationBehaviorForComplication"]
+- ["PSs11CVarArgType", "getTimelineEndDateForComplication"]
+- ["PSs11CVarArgType", "getTimelineEntriesForComplication"]
+- ["PSs11CVarArgType", "getTimelineStartDateForComplication"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isEmpty"]
+- !private ["PSs11CVarArgType", "line1TextProvider"]
+- !private ["PSs11CVarArgType", "line2TextProvider"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "reachable"]
+- !private ["PSs11CVarArgType", "refreshComplications"]
+- ["PSs11CVarArgType", "requestedUpdateBudgetExhausted"]
+- ["PSs11CVarArgType", "requestedUpdateDidBegin"]
+- !private ["PSs11CVarArgType", "sendMessage"]
+- ["PSs11CVarArgType", "session"]
+- ["PSs11CVarArgType", "sessionReachabilityDidChange"]
+- ["PSs11CVarArgType", "sessionWatchStateDidChange"]
+- !private ["PSs11CVarArgType", "textProvider"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "isEmpty"]
+- ["C15Watch_Extension22ComplicationController", "CLKComplication"]
+- ["C15Watch_Extension22ComplicationController", "CLKComplicationPrivacyBehavior"]
+- ["C15Watch_Extension22ComplicationController", "CLKComplicationTemplate"]
+- !private ["C15Watch_Extension22ComplicationController", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["C15Watch_Extension22ComplicationController", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["C15Watch_Extension22ComplicationController", "CLKComplicationTemplateModularSmallStackText"]
+- ["C15Watch_Extension22ComplicationController", "CLKComplicationTimeTravelDirections"]
+- ["C15Watch_Extension22ComplicationController", "CLKComplicationTimelineEntry"]
+- !private ["C15Watch_Extension22ComplicationController", "CLKSimpleTextProvider"]
+- !private ["C15Watch_Extension22ComplicationController", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["C15Watch_Extension22ComplicationController", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["C15Watch_Extension22ComplicationController", "CSCurrentSignalStrengthPercentageKey"]
+- ["C15Watch_Extension22ComplicationController", "Int"]
+- ["C15Watch_Extension22ComplicationController", "NSDate"]
+- !private ["C15Watch_Extension22ComplicationController", "SessionUtility"]
+- !private ["C15Watch_Extension22ComplicationController", "String"]
+- ["C15Watch_Extension22ComplicationController", "Void"]
+- ["C15Watch_Extension22ComplicationController", "WCSession"]
+- ["C15Watch_Extension22ComplicationController", "deinit"]
+- ["C15Watch_Extension22ComplicationController", "getCurrentTimelineEntryForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getNextRequestedUpdateDateWithHandler"]
+- ["C15Watch_Extension22ComplicationController", "getPlaceholderTemplateForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getPrivacyBehaviorForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getSupportedTimeTravelDirectionsForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getTimelineAnimationBehaviorForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getTimelineEndDateForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getTimelineEntriesForComplication"]
+- ["C15Watch_Extension22ComplicationController", "getTimelineStartDateForComplication"]
+- ["C15Watch_Extension22ComplicationController", "init"]
+- !private ["C15Watch_Extension22ComplicationController", "print"]
+- ["C15Watch_Extension22ComplicationController", "requestedUpdateBudgetExhausted"]
+- ["C15Watch_Extension22ComplicationController", "requestedUpdateDidBegin"]
+- ["C15Watch_Extension22ComplicationController", "session"]
+- ["C15Watch_Extension22ComplicationController", "sessionReachabilityDidChange"]
+- ["C15Watch_Extension22ComplicationController", "sessionWatchStateDidChange"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSs23CustomStringConvertible", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSs23CustomStringConvertible", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSs23CustomStringConvertible", "CLKComplicationTimelineEntry"]
+- !private ["PSs23CustomStringConvertible", "CLKSimpleTextProvider"]
+- !private ["PSs23CustomStringConvertible", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSs23CustomStringConvertible", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSs23CustomStringConvertible", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSDate"]
+- !private ["PSs23CustomStringConvertible", "SessionUtility"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- ["PSs23CustomStringConvertible", "WCSession"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "activateSession"]
+- ["PSs23CustomStringConvertible", "defaultSession"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "family"]
+- ["PSs23CustomStringConvertible", "getCurrentTimelineEntryForComplication"]
+- ["PSs23CustomStringConvertible", "getNextRequestedUpdateDateWithHandler"]
+- ["PSs23CustomStringConvertible", "getPlaceholderTemplateForComplication"]
+- ["PSs23CustomStringConvertible", "getPrivacyBehaviorForComplication"]
+- ["PSs23CustomStringConvertible", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSs23CustomStringConvertible", "getTimelineAnimationBehaviorForComplication"]
+- ["PSs23CustomStringConvertible", "getTimelineEndDateForComplication"]
+- ["PSs23CustomStringConvertible", "getTimelineEntriesForComplication"]
+- ["PSs23CustomStringConvertible", "getTimelineStartDateForComplication"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "line1TextProvider"]
+- !private ["PSs23CustomStringConvertible", "line2TextProvider"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "reachable"]
+- !private ["PSs23CustomStringConvertible", "refreshComplications"]
+- ["PSs23CustomStringConvertible", "requestedUpdateBudgetExhausted"]
+- ["PSs23CustomStringConvertible", "requestedUpdateDidBegin"]
+- !private ["PSs23CustomStringConvertible", "sendMessage"]
+- ["PSs23CustomStringConvertible", "session"]
+- ["PSs23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["PSs23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "textProvider"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSs9Equatable", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSs9Equatable", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSs9Equatable", "CLKComplicationTimelineEntry"]
+- !private ["PSs9Equatable", "CLKSimpleTextProvider"]
+- !private ["PSs9Equatable", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSs9Equatable", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSs9Equatable", "CSCurrentSignalStrengthPercentageKey"]
+- ["PSs9Equatable", "CircularSmall"]
+- ["PSs9Equatable", "ModularSmall"]
+- !private ["PSs9Equatable", "NSDate"]
+- !private ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "SessionUtility"]
+- !private ["PSs9Equatable", "ShowOnLockScreen"]
+- ["PSs9Equatable", "WCSession"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "activateSession"]
+- ["PSs9Equatable", "defaultSession"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "family"]
+- ["PSs9Equatable", "getCurrentTimelineEntryForComplication"]
+- ["PSs9Equatable", "getNextRequestedUpdateDateWithHandler"]
+- ["PSs9Equatable", "getPlaceholderTemplateForComplication"]
+- ["PSs9Equatable", "getPrivacyBehaviorForComplication"]
+- ["PSs9Equatable", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSs9Equatable", "getTimelineAnimationBehaviorForComplication"]
+- ["PSs9Equatable", "getTimelineEndDateForComplication"]
+- ["PSs9Equatable", "getTimelineEntriesForComplication"]
+- ["PSs9Equatable", "getTimelineStartDateForComplication"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isEmpty"]
+- !private ["PSs9Equatable", "line1TextProvider"]
+- !private ["PSs9Equatable", "line2TextProvider"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "reachable"]
+- !private ["PSs9Equatable", "refreshComplications"]
+- ["PSs9Equatable", "requestedUpdateBudgetExhausted"]
+- ["PSs9Equatable", "requestedUpdateDidBegin"]
+- !private ["PSs9Equatable", "sendMessage"]
+- ["PSs9Equatable", "session"]
+- ["PSs9Equatable", "sessionReachabilityDidChange"]
+- ["PSs9Equatable", "sessionWatchStateDidChange"]
+- !private ["PSs9Equatable", "textProvider"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Sf", "deinit"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSs8Hashable", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSs8Hashable", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSs8Hashable", "CLKComplicationTimelineEntry"]
+- !private ["PSs8Hashable", "CLKSimpleTextProvider"]
+- !private ["PSs8Hashable", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSs8Hashable", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSs8Hashable", "CSCurrentSignalStrengthPercentageKey"]
+- ["PSs8Hashable", "CircularSmall"]
+- ["PSs8Hashable", "ModularSmall"]
+- !private ["PSs8Hashable", "NSDate"]
+- !private ["PSs8Hashable", "SessionUtility"]
+- !private ["PSs8Hashable", "ShowOnLockScreen"]
+- ["PSs8Hashable", "WCSession"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "activateSession"]
+- ["PSs8Hashable", "defaultSession"]
+- !private ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "family"]
+- ["PSs8Hashable", "getCurrentTimelineEntryForComplication"]
+- ["PSs8Hashable", "getNextRequestedUpdateDateWithHandler"]
+- ["PSs8Hashable", "getPlaceholderTemplateForComplication"]
+- ["PSs8Hashable", "getPrivacyBehaviorForComplication"]
+- ["PSs8Hashable", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSs8Hashable", "getTimelineAnimationBehaviorForComplication"]
+- ["PSs8Hashable", "getTimelineEndDateForComplication"]
+- ["PSs8Hashable", "getTimelineEntriesForComplication"]
+- ["PSs8Hashable", "getTimelineStartDateForComplication"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isEmpty"]
+- !private ["PSs8Hashable", "line1TextProvider"]
+- !private ["PSs8Hashable", "line2TextProvider"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "reachable"]
+- !private ["PSs8Hashable", "refreshComplications"]
+- ["PSs8Hashable", "requestedUpdateBudgetExhausted"]
+- ["PSs8Hashable", "requestedUpdateDidBegin"]
+- !private ["PSs8Hashable", "sendMessage"]
+- ["PSs8Hashable", "session"]
+- ["PSs8Hashable", "sessionReachabilityDidChange"]
+- ["PSs8Hashable", "sessionWatchStateDidChange"]
+- !private ["PSs8Hashable", "textProvider"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo9NSCopying", "family"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "line1TextProvider"]
+- !private ["PSo9NSCopying", "line2TextProvider"]
+- !private ["PSo9NSCopying", "textProvider"]
+- !private ["CSo6NSDate", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- ["CSo8NSObject", "CLKComplication"]
+- ["CSo8NSObject", "CLKComplicationPrivacyBehavior"]
+- ["CSo8NSObject", "CLKComplicationTemplate"]
+- !private ["CSo8NSObject", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["CSo8NSObject", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["CSo8NSObject", "CLKComplicationTemplateModularSmallStackText"]
+- ["CSo8NSObject", "CLKComplicationTimeTravelDirections"]
+- ["CSo8NSObject", "CLKComplicationTimelineEntry"]
+- !private ["CSo8NSObject", "CLKSimpleTextProvider"]
+- !private ["CSo8NSObject", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["CSo8NSObject", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["CSo8NSObject", "CSCurrentSignalStrengthPercentageKey"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "SessionUtility"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WCSession"]
+- !private ["CSo8NSObject", "activateSession"]
+- ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "family"]
+- ["CSo8NSObject", "getCurrentTimelineEntryForComplication"]
+- ["CSo8NSObject", "getNextRequestedUpdateDateWithHandler"]
+- ["CSo8NSObject", "getPlaceholderTemplateForComplication"]
+- ["CSo8NSObject", "getPrivacyBehaviorForComplication"]
+- ["CSo8NSObject", "getSupportedTimeTravelDirectionsForComplication"]
+- ["CSo8NSObject", "getTimelineAnimationBehaviorForComplication"]
+- ["CSo8NSObject", "getTimelineEndDateForComplication"]
+- ["CSo8NSObject", "getTimelineEntriesForComplication"]
+- ["CSo8NSObject", "getTimelineStartDateForComplication"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "line1TextProvider"]
+- !private ["CSo8NSObject", "line2TextProvider"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "reachable"]
+- !private ["CSo8NSObject", "refreshComplications"]
+- ["CSo8NSObject", "requestedUpdateBudgetExhausted"]
+- ["CSo8NSObject", "requestedUpdateDidBegin"]
+- !private ["CSo8NSObject", "sendMessage"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "textProvider"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSo16NSObjectProtocol", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSo16NSObjectProtocol", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSo16NSObjectProtocol", "CLKComplicationTimelineEntry"]
+- !private ["PSo16NSObjectProtocol", "CLKSimpleTextProvider"]
+- !private ["PSo16NSObjectProtocol", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSo16NSObjectProtocol", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSo16NSObjectProtocol", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "SessionUtility"]
+- ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "family"]
+- ["PSo16NSObjectProtocol", "getCurrentTimelineEntryForComplication"]
+- ["PSo16NSObjectProtocol", "getNextRequestedUpdateDateWithHandler"]
+- ["PSo16NSObjectProtocol", "getPlaceholderTemplateForComplication"]
+- ["PSo16NSObjectProtocol", "getPrivacyBehaviorForComplication"]
+- ["PSo16NSObjectProtocol", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSo16NSObjectProtocol", "getTimelineAnimationBehaviorForComplication"]
+- ["PSo16NSObjectProtocol", "getTimelineEndDateForComplication"]
+- ["PSo16NSObjectProtocol", "getTimelineEntriesForComplication"]
+- ["PSo16NSObjectProtocol", "getTimelineStartDateForComplication"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "line1TextProvider"]
+- !private ["PSo16NSObjectProtocol", "line2TextProvider"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "reachable"]
+- !private ["PSo16NSObjectProtocol", "refreshComplications"]
+- ["PSo16NSObjectProtocol", "requestedUpdateBudgetExhausted"]
+- ["PSo16NSObjectProtocol", "requestedUpdateDidBegin"]
+- !private ["PSo16NSObjectProtocol", "sendMessage"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "textProvider"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "None"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "isEmpty"]
+- ["PSs16RawRepresentable", "CircularSmall"]
+- ["PSs16RawRepresentable", "ModularSmall"]
+- !private ["PSs16RawRepresentable", "None"]
+- !private ["PSs16RawRepresentable", "ShowOnLockScreen"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "None"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "isEmpty"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["CSo9WCSession", "activateSession"]
+- ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "reachable"]
+- !private ["CSo9WCSession", "sendMessage"]
+- !private ["PSo17WCSessionDelegate", "CLKComplicationTemplateCircularSmallSimpleText"]
+- !private ["PSo17WCSessionDelegate", "CLKComplicationTemplateModularSmallSimpleText"]
+- !private ["PSo17WCSessionDelegate", "CLKComplicationTemplateModularSmallStackText"]
+- !private ["PSo17WCSessionDelegate", "CLKComplicationTimelineEntry"]
+- !private ["PSo17WCSessionDelegate", "CLKSimpleTextProvider"]
+- !private ["PSo17WCSessionDelegate", "CSCurrentRadioAccessTechnologyAndCurrentSignalStrengthPercentageRequestKey"]
+- !private ["PSo17WCSessionDelegate", "CSCurrentRadioAccessTechnologyKey"]
+- !private ["PSo17WCSessionDelegate", "CSCurrentSignalStrengthPercentageKey"]
+- !private ["PSo17WCSessionDelegate", "NSDate"]
+- !private ["PSo17WCSessionDelegate", "SessionUtility"]
+- ["PSo17WCSessionDelegate", "WCSession"]
+- ["PSo17WCSessionDelegate", "getCurrentTimelineEntryForComplication"]
+- ["PSo17WCSessionDelegate", "getNextRequestedUpdateDateWithHandler"]
+- ["PSo17WCSessionDelegate", "getPlaceholderTemplateForComplication"]
+- ["PSo17WCSessionDelegate", "getPrivacyBehaviorForComplication"]
+- ["PSo17WCSessionDelegate", "getSupportedTimeTravelDirectionsForComplication"]
+- ["PSo17WCSessionDelegate", "getTimelineAnimationBehaviorForComplication"]
+- ["PSo17WCSessionDelegate", "getTimelineEndDateForComplication"]
+- ["PSo17WCSessionDelegate", "getTimelineEntriesForComplication"]
+- ["PSo17WCSessionDelegate", "getTimelineStartDateForComplication"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- !private ["PSo17WCSessionDelegate", "refreshComplications"]
+- ["PSo17WCSessionDelegate", "requestedUpdateBudgetExhausted"]
+- ["PSo17WCSessionDelegate", "requestedUpdateDidBegin"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "CSo15CLKComplication"
+- "PSo25CLKComplicationDataSource"
+- "OSC21CLKComplicationFamily"
+- !private "OSC30CLKComplicationPrivacyBehavior"
+- !private "CSo23CLKComplicationTemplate"
+- !private "CSo46CLKComplicationTemplateCircularSmallSimpleText"
+- !private "CSo45CLKComplicationTemplateModularSmallSimpleText"
+- !private "CSo44CLKComplicationTemplateModularSmallStackText"
+- !private "VSC35CLKComplicationTimeTravelDirections"
+- !private "CSo28CLKComplicationTimelineEntry"
+- !private "CSo21CLKSimpleTextProvider"
+- !private "CSo15CLKTextProvider"
+- !private "C15Watch_Extension16CSSessionUtility"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "C15Watch_Extension22ComplicationController"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "dbca1d7ae8e1108fa05805dc2c7aa9ef"

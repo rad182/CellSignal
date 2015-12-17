@@ -1,0 +1,91 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15Watch_Extension14ViewController"
+provides-member:
+- ["C15Watch_Extension14ViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CTRadioAccessTechnologyLTE"
+- "UIViewController"
+- !private "~="
+- "CTTelephonyNetworkInfo"
+- "ViewController"
+- !private "StringLiteralType"
+- !private "CTRadioAccessTechnologyEdge"
+- !private "CTRadioAccessTechnologyDidChangeNotification"
+- !private "CTRadioAccessTechnologyHSUPA"
+- !private "NSNotificationCenter"
+- !private "CTRadioAccessTechnologyGPRS"
+- !private "Void"
+- "UILabel"
+- !private "CTRadioAccessTechnologyHSDPA"
+depends-member:
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyDidChangeNotification"]
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyEdge"]
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyGPRS"]
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyHSDPA"]
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyHSUPA"]
+- !private ["PSs9AnyObject", "CTRadioAccessTechnologyLTE"]
+- ["PSs9AnyObject", "CTTelephonyNetworkInfo"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "addObserverForName"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- !private ["PSs9AnyObject", "radioAccessTechnologyLabel"]
+- !private ["PSs9AnyObject", "telephonyInfo"]
+- !private ["PSs9AnyObject", "updateRadioAccessTechnologyLabel"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "addObserverForName"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- !private ["PSs23CustomStringConvertible", "addObserverForName"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- !private ["PSs9Equatable", "addObserverForName"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- !private ["PSs8Hashable", "addObserverForName"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyDidChangeNotification"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyEdge"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyGPRS"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyHSDPA"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyHSUPA"]
+- !private ["C15Watch_Extension14ViewController", "CTRadioAccessTechnologyLTE"]
+- ["C15Watch_Extension14ViewController", "CTTelephonyNetworkInfo"]
+- !private ["C15Watch_Extension14ViewController", "NSNotificationCenter"]
+- ["C15Watch_Extension14ViewController", "UILabel"]
+- !private ["C15Watch_Extension14ViewController", "Void"]
+- ["C15Watch_Extension14ViewController", "deinit"]
+- ["C15Watch_Extension14ViewController", "didReceiveMemoryWarning"]
+- ["C15Watch_Extension14ViewController", "init"]
+- !private ["C15Watch_Extension14ViewController", "radioAccessTechnologyLabel"]
+- !private ["C15Watch_Extension14ViewController", "telephonyInfo"]
+- ["C15Watch_Extension14ViewController", "updateRadioAccessTechnologyLabel"]
+- ["C15Watch_Extension14ViewController", "viewDidLoad"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "C15Watch_Extension14ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "3f1b768ea807f2c243ca0a6c98a9f028"

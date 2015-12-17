@@ -1,0 +1,325 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceController"
+provides-nominal:
+- "C10CellSignal19InterfaceController"
+provides-member:
+- ["C10CellSignal19InterfaceController", ""]
+provides-dynamic-lookup:
+- "radioTechnologyLabel"
+- "didAppear"
+- "didDeactivate"
+- "awakeWithContext"
+- "willActivate"
+depends-top-level:
+- !private "print"
+- "WKInterfaceLabel"
+- !private "CSCurrentRadioTechnologyKey"
+- !private "String"
+- "InterfaceController"
+- "WCSession"
+- "AnyObject"
+- !private "Void"
+- !private "Dictionary"
+- "WKInterfaceController"
+- "WCSessionDelegate"
+depends-member:
+- !private ["PSs9AnyObject", "CSCurrentRadioTechnologyKey"]
+- !private ["PSs9AnyObject", "WCSession"]
+- !private ["PSs9AnyObject", "activateSession"]
+- ["PSs9AnyObject", "awakeWithContext"]
+- !private ["PSs9AnyObject", "defaultSession"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "didAppear"]
+- ["PSs9AnyObject", "didDeactivate"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isSupported"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "radioTechnologyLabel"]
+- !private ["PSs9AnyObject", "sendMessage"]
+- ["PSs9AnyObject", "session"]
+- ["PSs9AnyObject", "sessionReachabilityDidChange"]
+- ["PSs9AnyObject", "sessionWatchStateDidChange"]
+- !private ["PSs9AnyObject", "setText"]
+- ["PSs9AnyObject", "willActivate"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "CSCurrentRadioTechnologyKey"]
+- !private ["PSs11CVarArgType", "WCSession"]
+- !private ["PSs11CVarArgType", "activateSession"]
+- ["PSs11CVarArgType", "awakeWithContext"]
+- !private ["PSs11CVarArgType", "defaultSession"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "didAppear"]
+- ["PSs11CVarArgType", "didDeactivate"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isSupported"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "radioTechnologyLabel"]
+- !private ["PSs11CVarArgType", "sendMessage"]
+- ["PSs11CVarArgType", "session"]
+- ["PSs11CVarArgType", "sessionReachabilityDidChange"]
+- ["PSs11CVarArgType", "sessionWatchStateDidChange"]
+- !private ["PSs11CVarArgType", "setText"]
+- ["PSs11CVarArgType", "willActivate"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CSCurrentRadioTechnologyKey"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "WCSession"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "activateSession"]
+- ["PSs23CustomStringConvertible", "awakeWithContext"]
+- !private ["PSs23CustomStringConvertible", "defaultSession"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "didAppear"]
+- ["PSs23CustomStringConvertible", "didDeactivate"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isSupported"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "radioTechnologyLabel"]
+- !private ["PSs23CustomStringConvertible", "sendMessage"]
+- ["PSs23CustomStringConvertible", "session"]
+- ["PSs23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["PSs23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["PSs23CustomStringConvertible", "setText"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "willActivate"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "CSCurrentRadioTechnologyKey"]
+- !private ["PSs9Equatable", "WCSession"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "activateSession"]
+- ["PSs9Equatable", "awakeWithContext"]
+- !private ["PSs9Equatable", "defaultSession"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "didAppear"]
+- ["PSs9Equatable", "didDeactivate"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isSupported"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "radioTechnologyLabel"]
+- !private ["PSs9Equatable", "sendMessage"]
+- ["PSs9Equatable", "session"]
+- ["PSs9Equatable", "sessionReachabilityDidChange"]
+- ["PSs9Equatable", "sessionWatchStateDidChange"]
+- !private ["PSs9Equatable", "setText"]
+- ["PSs9Equatable", "willActivate"]
+- ["PSs9Equatable", ""]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CSCurrentRadioTechnologyKey"]
+- !private ["PSs8Hashable", "WCSession"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "activateSession"]
+- ["PSs8Hashable", "awakeWithContext"]
+- !private ["PSs8Hashable", "defaultSession"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "didAppear"]
+- ["PSs8Hashable", "didDeactivate"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isSupported"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "radioTechnologyLabel"]
+- !private ["PSs8Hashable", "sendMessage"]
+- ["PSs8Hashable", "session"]
+- ["PSs8Hashable", "sessionReachabilityDidChange"]
+- ["PSs8Hashable", "sessionWatchStateDidChange"]
+- !private ["PSs8Hashable", "setText"]
+- ["PSs8Hashable", "willActivate"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- ["C10CellSignal19InterfaceController", "AnyObject"]
+- !private ["C10CellSignal19InterfaceController", "CSCurrentRadioTechnologyKey"]
+- !private ["C10CellSignal19InterfaceController", "String"]
+- !private ["C10CellSignal19InterfaceController", "Void"]
+- ["C10CellSignal19InterfaceController", "WCSession"]
+- ["C10CellSignal19InterfaceController", "WKInterfaceLabel"]
+- ["C10CellSignal19InterfaceController", "awakeWithContext"]
+- ["C10CellSignal19InterfaceController", "deinit"]
+- ["C10CellSignal19InterfaceController", "didAppear"]
+- ["C10CellSignal19InterfaceController", "didDeactivate"]
+- ["C10CellSignal19InterfaceController", "init"]
+- !private ["C10CellSignal19InterfaceController", "print"]
+- ["C10CellSignal19InterfaceController", "radioTechnologyLabel"]
+- ["C10CellSignal19InterfaceController", "session"]
+- ["C10CellSignal19InterfaceController", "sessionReachabilityDidChange"]
+- ["C10CellSignal19InterfaceController", "sessionWatchStateDidChange"]
+- ["C10CellSignal19InterfaceController", "willActivate"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CSCurrentRadioTechnologyKey"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WKInterfaceLabel"]
+- !private ["CSo8NSObject", "activateSession"]
+- ["CSo8NSObject", "awakeWithContext"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didAppear"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "radioTechnologyLabel"]
+- !private ["CSo8NSObject", "sendMessage"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "setText"]
+- ["CSo8NSObject", "willActivate"]
+- !private ["PSo16NSObjectProtocol", "CSCurrentRadioTechnologyKey"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didAppear"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "radioTechnologyLabel"]
+- !private ["PSo16NSObjectProtocol", "sendMessage"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "setText"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["SS", "deinit"]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["CSo9WCSession", "sendMessage"]
+- !private ["PSo17WCSessionDelegate", "CSCurrentRadioTechnologyKey"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- !private ["PSo17WCSessionDelegate", "radioTechnologyLabel"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- !private ["CSo21WKInterfaceController", "CSCurrentRadioTechnologyKey"]
+- !private ["CSo21WKInterfaceController", "String"]
+- !private ["CSo21WKInterfaceController", "Void"]
+- ["CSo21WKInterfaceController", "WCSession"]
+- ["CSo21WKInterfaceController", "WKInterfaceLabel"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didAppear"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "init"]
+- !private ["CSo21WKInterfaceController", "print"]
+- ["CSo21WKInterfaceController", "radioTechnologyLabel"]
+- ["CSo21WKInterfaceController", "session"]
+- ["CSo21WKInterfaceController", "sessionReachabilityDidChange"]
+- ["CSo21WKInterfaceController", "sessionWatchStateDidChange"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+- !private ["CSo16WKInterfaceLabel", "setText"]
+- !private ["CSo17WKInterfaceObject", "setText"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "Key"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- "C10CellSignal19InterfaceController"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs12SequenceType"
+- !private "VSs5Slice"
+- !private "SS"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- "CSo21WKInterfaceController"
+- !private "CSo16WKInterfaceLabel"
+- !private "CSo17WKInterfaceObject"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchConnectivity.swiftmodule"
+interface-hash: "7da59bf375c6b11e523f7859722faed5"
